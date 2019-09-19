@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
 import {StyleSheet, StatusBar, Dimensions, View, Animated, Easing} from 'react-native';
-import NativeLinearGradient from 'react-native-linear-gradient';
+import { LinearGradient as NativeLinearGradient } from 'expo-linear-gradient';
 import rgb2hex from 'rgb2hex';
 
 // const {height, width} = Dimensions.get('window');
@@ -59,7 +59,7 @@ class AnimatedGradient extends Component {
     customColors: presetColors.instagram,
     speed: 4000,
     points: {
-      start: {x: 0, y: 0.4}, 
+      start: {x: 0, y: 0.4},
       end: {x: 1, y: 0.6}
     }
   }
