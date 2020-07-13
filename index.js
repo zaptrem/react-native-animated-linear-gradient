@@ -60,13 +60,8 @@ class AnimatedGradient extends Component {
     customColors: presetColors.instagram,
     speed: 4000,
     points: {
-<<<<<<< HEAD
-      start: {x: 0, y: 0.4},
-      end: {x: 1, y: 0.6}
-=======
       start: { x: 0, y: 0.4 },
       end: { x: 1, y: 0.6 }
->>>>>>> 5792841c33b76faa61922356b85be4671c523762
     }
   }
 
